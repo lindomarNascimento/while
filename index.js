@@ -52,6 +52,34 @@ const listaNome = [
 // = comparação var index === 0
 
 
-listaNome.forEach(function (nome, index) { 
-  console.log(nome, index+1)
-})
+// listaNome.forEach(function (nome, index) { 
+//   console.log(nome, index+1)
+// })
+
+
+
+
+const sorteio = [
+  "Ana Carina Alves",
+  "Anderson Franca",
+  "Daniele Maria",
+  "Diogo Negreiros",
+  "Edson Xavier",
+  "Fernanda Araujo",
+  "Gabriel Brantes",
+  "helaine Cristina Ribeiro",
+  "Henrique Maestrello",
+  "Inez Prazeres",
+  "Juliana Da Cruz",
+  "Kemilly Mendes Pardinho",
+  "Lais Kimberlly",
+  "Ludimila Bárbara",
+  "Manu Borges",
+  "Marcos Kulman",
+  "Saffirah Gameplay (Amanda C. Hipólito)",
+  "Vanessa Arcanjo"
+]
+
+const numero =  Math.floor(Math.random() * (sorteio.length - 0) + 0)
+
+console.log(sorteio[numero])

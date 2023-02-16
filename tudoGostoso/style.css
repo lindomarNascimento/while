@@ -1,0 +1,26 @@
+/* folha de estilização */
+
+.titulo {
+  color: #FF6A28;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: uppercase
+}
+
+.descricao {
+  font-size: 16px;
+  font-family: sans-serif;
+  display: block;
+
+  margin-bottom: 60px;
+}
+
+.image-principal {
+  width: 100px;
+  height: 100px;
+}
+/* 
+tag <div>
+classe texto corrido 
+*/

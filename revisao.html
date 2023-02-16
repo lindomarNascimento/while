@@ -1,0 +1,121 @@
+<html>
+  <script>
+    //tipos de dados
+    // object {}
+    // array []
+    // funcions
+
+    //operadores logigos
+
+    // ! not
+    // || or
+    // && and
+
+    const aluno = {
+      nome: "lindomar",
+      idade: 18,
+      stacks: 'javascript',
+      notas: {
+        nota1: 5,
+        nota2: 6,
+        nota3: 7,
+        nota4: 8,
+      },
+      maiorDeIdade: true
+    } //object === objecto
+
+    const sala = [
+      {
+        nome: "lindomar",
+        idade: 18,
+        stacks: 'javascript',
+        notas: {
+          nota1: 5,
+          nota2: 6,
+          nota3: 7,
+          nota4: 8,
+        },
+        maiorDeIdade: true
+      },
+      {
+        nome: "cicrano",
+        idade: 10,
+        stacks: 'javascript',
+        notas: {
+          nota1: 5,
+          nota2: 0,
+          nota3: 0,
+          nota4: 8,
+        },
+        maiorDeIdade: false
+      },
+      {
+        nome: "beltrano",
+        idade: 23,
+        stacks: 'html',
+        notas: {
+          nota1: 5,
+          nota2: 6,
+          nota3: 9,
+          nota4: 10,
+        },
+        maiorDeIdade: true
+      },
+      {
+        nome: "joaozinho",
+        idade: 23,
+        stacks: 'html',
+        notas: {
+          nota1: 5,
+          nota2: 6,
+          nota3: 9,
+          nota4: 10,
+        },
+        maiorDeIdade: true
+      }
+    ] //araay === coleção
+      
+    for(let i = 0; i < sala.length; i++) {
+      const aluno = sala[i].nome;
+      const notas = sala[i].notas
+    
+      const media = (notas.nota1 + notas.nota2 + notas.nota3 + notas.nota4) / 4
+ 
+      const aprovadoOuReprovado = media > 5
+
+      if(aprovadoOuReprovado) {
+        console.log('aluno ' + aluno + 'com a media de ' + media + 'foi APROVADO 🤣')
+      } else {
+        console.log('aluno ' + aluno + 'com a media de '+ media + ' foi REPROVADO 🥲')
+      }
+
+      // if ternario
+      aprovadoOuReprovado ? 
+        console.log('aluno ' + aluno + 'com a media de ' + media + 'foi APROVADO 🤣') 
+        : console.log('aluno ' + aluno + 'com a media de '+ media + ' foi REPROVADO 🥲')
+
+    }
+
+
+    // const aluno1 = sala[0].nome
+    // const media1 = (sala[0].notas.nota1 + sala[0].notas.nota2 + sala[0].notas.nota3 + sala[0].notas.nota4) / 4
+
+    // const aluno2 = sala[1].nome
+    // const media2 = (sala[1].notas.nota1 + sala[1].notas.nota2 + sala[1].notas.nota3 + sala[1].notas.nota4) / 4
+
+    // const aluno3 = sala[2].nome
+    // const media3 = (sala[2].notas.nota1 + sala[2].notas.nota2 + sala[2].notas.nota3 + sala[2].notas.nota4) / 4
+
+    // const aluno4 = sala[3].nome
+    // const media4 = (sala[3].notas.nota1 + sala[3].notas.nota2 + sala[3].notas.nota3 + sala[3].notas.nota4) / 4
+
+
+    // console.log('aluno ' + aluno1 + ' tem a media ' + media1)
+    // console.log('aluno ' + aluno2 + ' tem a media ' + media2)
+    // console.log('aluno ' + aluno3 + ' tem a media ' + media3)
+    // console.log('aluno ' + aluno4 + ' tem a media ' + media4)
+  </script>
+
+</html>
+
+
