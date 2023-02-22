@@ -67,7 +67,6 @@ const sorteio = [
   "Edson Xavier",
   "Fernanda Araujo",
   "Gabriel Brantes",
-  "helaine Cristina Ribeiro",
   "Henrique Maestrello",
   "Inez Prazeres",
   "Juliana Da Cruz",
