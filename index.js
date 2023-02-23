@@ -62,6 +62,8 @@ const listaNome = [
 const sorteio = [
   "Ana Carina Alves",
   "Anderson Franca",
+  "Amanda Beatriz",
+  "Bruno Ribeiro",
   "Daniele Maria",
   "Diogo Negreiros",
   "Edson Xavier",
