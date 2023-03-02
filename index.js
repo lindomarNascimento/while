@@ -56,25 +56,21 @@ const listaNome = [
 //   console.log(nome, index+1)
 // })
 
-
-
-
 const sorteio = [
   "Ana Carina Alves",
-  "Anderson Franca",
   "Amanda Beatriz",
   "Bruno Ribeiro",
   "Daniele Maria",
   "Diogo Negreiros",
   "Edson Xavier",
-  "Fernanda Araujo",
   "Gabriel Brantes",
   "Henrique Maestrello",
-  "Inez Prazeres",
   "Juliana Da Cruz",
   "Kemilly Mendes Pardinho",
-  "Lais Kimberlly",
   "Ludimila Bárbara",
+  "victor",
+  "vitoria",
+  "vanessa lima",
   "Manu Borges",
   "Marcos Kulman",
   "Saffirah Gameplay (Amanda C. Hipólito)",
