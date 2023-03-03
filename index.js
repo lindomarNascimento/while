@@ -73,10 +73,14 @@ const sorteio = [
   "vanessa lima",
   "Manu Borges",
   "Marcos Kulman",
+  "lais kimberlly",
+  "Inez Prazeres",
+  "Adilaine monteiro",
+  "fernanda araujo",
   "Saffirah Gameplay (Amanda C. Hipólito)",
   "Vanessa Arcanjo"
 ]
 
-const numero =  Math.floor(Math.random() * (sorteio.length - 0) + 0)
+const numero = Math.floor(Math.random() * (sorteio.length - 0) + 0)
 
 console.log(sorteio[numero])
