@@ -28,18 +28,29 @@
   padding: 50px 19px 42px;
 }
 
+.viewfinder {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.viewfinder::-webkit-scrollbar {
+  display: none;
+}
+
 .viewfinder-numbers {
   display: inline-block;
   font-size: 48px;
   color: #ffffff;
 
   width: 100%;
+  height: 59px;
   text-align: right;
 }
 
 .response {
   display: inline-block;
   width: 100%;
+  height: 59px;
   text-align: right;
 
   margin-top: 70px;
